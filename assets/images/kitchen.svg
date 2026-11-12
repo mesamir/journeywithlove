@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustrative placeholder of a home kitchen">
+<rect width="800" height="600" fill="#eef2ec"/>
+<rect x="60" y="300" width="680" height="160" rx="10" fill="#8faf9b"/>
+<rect x="60" y="300" width="680" height="30" rx="8" fill="#f6f2e8"/>
+<rect x="120" y="200" width="160" height="100" rx="8" fill="#dbe6dd"/>
+<rect x="520" y="180" width="180" height="120" rx="8" fill="#dbe6dd"/>
+<circle cx="650" cy="250" r="26" fill="#c5a46d" opacity=".6"/>
+<rect x="60" y="460" width="680" height="20" fill="#244b3c" opacity=".18"/>
+</svg>

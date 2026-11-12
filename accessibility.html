@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accessibility Statement | Willowbrook Adult Family Home</title>
+<meta name="description" content="Accessibility statement for the Willowbrook Adult Family Home website prototype, targeting WCAG 2.2 AA practices.">
+<link rel="canonical" href="https://www.willowbrookafh.example/accessibility.html">
+<link rel="icon" href="assets/favicon/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body data-page="accessibility.html">
+<a class="skip-link" href="#main">Skip to main content</a>
+<header id="siteHeader"></header>
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Accessibility</span></nav>
+      <h1>Accessibility Statement</h1>
+      <p>We want this website to be usable by everyone, including people using assistive technology.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="legal">
+        <h2>Our commitment</h2>
+        <p>This prototype has been built with the intention of meeting <strong>WCAG 2.2 Level AA</strong> practices. Accessibility is treated as a requirement, not an afterthought.</p>
+
+        <h2>Keyboard navigation</h2>
+        <p>All interactive elements — navigation, forms, accordions, gallery filters and the image lightbox — are operable by keyboard. A visible focus indicator appears on every focusable element, and a "skip to main content" link is the first focusable item on each page.</p>
+
+        <h2>Screen-reader compatibility</h2>
+        <p>Semantic HTML5 landmarks are used throughout. Form inputs have associated labels, validation errors are announced through live regions, the lightbox is a modal dialog with focus trapping, and the mobile menu manages focus and <code>aria-expanded</code> state.</p>
+
+        <h2>Colour contrast</h2>
+        <p>Body text and interactive elements are designed to meet or exceed a 4.5:1 contrast ratio against their backgrounds. The primary palette uses deep forest green and warm ivory specifically to support readable contrast.</p>
+
+        <h2>Text resizing</h2>
+        <p>Layouts use relative units and flexible grids, so text can be enlarged to 200% without loss of content or functionality and without horizontal scrolling at standard breakpoints.</p>
+
+        <h2>Image alternative text</h2>
+        <p>All meaningful images carry descriptive alternative text. Placeholder illustrations are described as illustrative, so assistive technology users are not misled about what is depicted.</p>
+
+        <h2>Reduced motion</h2>
+        <p>The stylesheet respects the <code>prefers-reduced-motion</code> media query, disabling transitions and smooth scrolling for users who have requested reduced motion at the operating-system level.</p>
+
+        <h2>Known limitations</h2>
+        <p>This is a prototype. It has not yet been audited by an independent accessibility specialist or tested with a full range of assistive technologies. Real user testing is recommended before launch.</p>
+
+        <h2>Feedback</h2>
+        <p>If you encounter an accessibility barrier on this site, please tell us so we can fix it:</p>
+        <ul>
+          <li>Email: <a href="mailto:hello@willowbrookafh.example">hello@willowbrookafh.example</a></li>
+          <li>Phone: <a href="tel:+12065550142">(206) 555-0142</a></li>
+        </ul>
+        <p>We aim to acknowledge accessibility reports within five business days.</p>
+        <p style="color:var(--text-2);font-size:.85rem;margin-top:2rem">Last reviewed: [date pending]. Target: WCAG 2.2 AA.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer id="siteFooter"></footer>
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/storage.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/navigation.js" defer></script>
+</body>
+</html>

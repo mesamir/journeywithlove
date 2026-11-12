@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustrative placeholder of a garden seating area">
+<rect width="800" height="600" fill="#e8f0e6"/>
+<circle cx="640" cy="140" r="80" fill="#c5a46d" opacity=".45"/>
+<path d="M0 420Q200 340 400 400T800 380V600H0Z" fill="#8faf9b"/>
+<path d="M0 500Q250 450 500 500T800 480V600H0Z" fill="#244b3c" opacity=".5"/>
+<rect x="260" y="330" width="280" height="70" rx="12" fill="#a8864f" opacity=".6"/>
+<rect x="290" y="400" width="20" height="80" fill="#8faf9b"/>
+<rect x="490" y="400" width="20" height="80" fill="#8faf9b"/>
+<circle cx="160" cy="330" r="60" fill="#2f5c4a" opacity=".55"/>
+</svg>

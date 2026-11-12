@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustrative placeholder of raised garden beds">
+<rect width="800" height="600" fill="#edf3ea"/>
+<rect x="80" y="360" width="640" height="120" rx="10" fill="#8faf9b"/>
+<rect x="110" y="380" width="180" height="60" rx="6" fill="#2f5c4a" opacity=".5"/>
+<rect x="320" y="380" width="180" height="60" rx="6" fill="#2f5c4a" opacity=".5"/>
+<rect x="530" y="380" width="160" height="60" rx="6" fill="#2f5c4a" opacity=".5"/>
+<circle cx="200" cy="200" r="70" fill="#c5a46d" opacity=".35"/>
+<path d="M0 520Q400 470 800 520V600H0Z" fill="#244b3c" opacity=".4"/>
+</svg>

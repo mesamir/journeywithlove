@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustrative placeholder of a music and conversation corner">
+<rect width="800" height="600" fill="#eef2ec"/>
+<rect x="100" y="320" width="240" height="180" rx="16" fill="#8faf9b"/>
+<rect x="380" y="260" width="320" height="240" rx="16" fill="#dbe6dd"/>
+<circle cx="520" cy="360" r="50" fill="#fdfcf6"/>
+<circle cx="520" cy="360" r="14" fill="#c5a46d"/>
+<rect x="400" y="440" width="280" height="18" rx="9" fill="#244b3c" opacity=".25"/>
+<rect x="150" y="200" width="140" height="90" rx="8" fill="#f8f5ec"/>
+</svg>

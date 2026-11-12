@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Schedule a Tour | Adult Family Home Seattle | Willowbrook</title>
+<meta name="description" content="Request an in-person tour, virtual consultation or phone consultation at a Seattle Adult Family Home. Choose a preferred date and time.">
+<link rel="canonical" href="https://www.willowbrookafh.example/tour.html">
+<meta property="og:title" content="Schedule a Tour | Willowbrook Adult Family Home">
+<meta property="og:description" content="Request a tour or consultation at a small Seattle Adult Family Home.">
+<meta property="og:image" content="https://www.willowbrookafh.example/assets/images/outdoor.svg">
+<link rel="icon" href="assets/favicon/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body data-page="tour.html">
+<a class="skip-link" href="#main">Skip to main content</a>
+<header id="siteHeader"></header>
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Schedule a Tour</span></nav>
+      <h1>Schedule a Tour</h1>
+      <p>Choose a preferred date and time, and we'll be in touch to confirm.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container container-narrow">
+      <p class="demo-note"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> <strong>A submitted request is not a confirmed appointment.</strong> This prototype stores requests in your browser only. No request reaches the home, and no email is sent. Time slots shown are demonstration availability.</p>
+
+      <form class="form-card" id="tourForm" novalidate style="margin-top:1.5rem">
+        <div class="form-grid">
+          <div class="field"><label for="name">Full name <span class="req">*</span></label><input id="name" name="name" type="text" autocomplete="name" data-required><span class="field-error"></span></div>
+          <div class="field"><label for="email">Email address <span class="req">*</span></label><input id="email" name="email" type="email" autocomplete="email" data-required><span class="field-error"></span></div>
+          <div class="field"><label for="phone">Phone number <span class="req">*</span></label><input id="phone" name="phone" type="tel" autocomplete="tel" data-required><span class="field-error"></span></div>
+          <div class="field"><label for="visitors">Number of visitors</label>
+            <select id="visitors" name="visitors"><option>1</option><option>2</option><option>3</option><option>4</option><option>5+</option></select><span class="field-error"></span></div>
+          <div class="field"><label for="tourDate">Preferred date <span class="req">*</span></label><input id="tourDate" name="date" type="date" data-required><span class="field-error" id="dateError"></span></div>
+          <div class="field"><label for="tourType">Tour type <span class="req">*</span></label>
+            <select id="tourType" name="tourType" data-required><option value="">Select…</option><option>In-Person Tour</option><option>Virtual Consultation</option><option>Phone Consultation</option></select><span class="field-error"></span></div>
+          <div class="field field-full">
+            <span class="field-label" style="font-size:.85rem;font-weight:600">Preferred time <span class="req">*</span></span>
+            <div class="slot-grid" id="slotGrid" role="group" aria-label="Available time slots"></div>
+            <span class="field-error" id="timeError"></span>
+          </div>
+          <div class="field field-full"><label for="message">Message</label><textarea id="message" name="message" placeholder="Anything you'd like us to know before the visit."></textarea><span class="field-error"></span></div>
+          <div class="field-full">
+            <label class="checkbox-field"><input type="checkbox" name="consent" data-required><span>I understand this is a demo request, that it is not a confirmed appointment, and that the home will contact me to confirm. <span class="req">*</span></span></label>
+            <span class="field-error" style="display:block"></span>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary btn-lg">Request Tour</button>
+          <p class="form-hint">Demo only — saved in this browser.</p>
+        </div>
+        <div class="form-success" id="tourSuccess" role="status"></div>
+      </form>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container container-narrow">
+      <h2>Your demo requests</h2>
+      <p class="section-lead">These are stored only in this browser. Cancelling here does not notify anyone.</p>
+      <div class="saved-list" id="savedTours"></div>
+    </div>
+  </section>
+</main>
+<footer id="siteFooter"></footer>
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/storage.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/navigation.js" defer></script>
+<script src="assets/js/appointments.js" defer></script>
+</body>
+</html>

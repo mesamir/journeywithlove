@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Photo Gallery | Adult Family Home Seattle | Willowbrook</title>
+<meta name="description" content="Browse illustrative photographs of bedrooms, living spaces, dining areas, outdoor spaces and daily activities at a Seattle Adult Family Home.">
+<link rel="canonical" href="https://www.willowbrookafh.example/gallery.html">
+<meta property="og:title" content="Photo Gallery | Willowbrook Adult Family Home">
+<meta property="og:description" content="Illustrative photographs of the living environment at a small Seattle Adult Family Home.">
+<meta property="og:image" content="https://www.willowbrookafh.example/assets/images/living.svg">
+<link rel="icon" href="assets/favicon/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body data-page="gallery.html">
+<a class="skip-link" href="#main">Skip to main content</a>
+<header id="siteHeader"></header>
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Gallery</span></nav>
+      <h1>Photo Gallery</h1>
+      <p>A look at the kind of spaces residents live in day to day.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="demo-note"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> All images below are illustrative placeholders. They do not depict this property, its residents or its caregivers, and will be replaced with authorised photographs before launch.</p>
+
+      <div class="filter-bar" role="group" aria-label="Filter gallery by category" style="margin-top:2rem">
+        <button class="filter-btn active" type="button" data-gallery-filter="all" aria-pressed="true">All Photos</button>
+        <button class="filter-btn" type="button" data-gallery-filter="bedrooms" aria-pressed="false">Bedrooms</button>
+        <button class="filter-btn" type="button" data-gallery-filter="living" aria-pressed="false">Living Spaces</button>
+        <button class="filter-btn" type="button" data-gallery-filter="dining" aria-pressed="false">Dining</button>
+        <button class="filter-btn" type="button" data-gallery-filter="outdoor" aria-pressed="false">Outdoor</button>
+        <button class="filter-btn" type="button" data-gallery-filter="activities" aria-pressed="false">Activities</button>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <figure class="gallery-item" data-category="bedrooms"><img src="assets/images/bedroom.svg" alt="Illustrative placeholder of a private bedroom with a made bed" width="800" height="600" loading="lazy"><figcaption>Private bedroom — illustrative placeholder</figcaption></figure>
+        <figure class="gallery-item" data-category="bedrooms"><img src="assets/images/bedroom2.svg" alt="Illustrative placeholder of a second bedroom layout" width="800" height="600" loading="lazy"><figcaption>Bedroom with natural light — illustrative placeholder</figcaption></figure>
+        <figure class="gallery-item" data-category="living"><img src="assets/images/living.svg" alt="Illustrative placeholder of a shared living room with seating" width="800" height="600" loading="lazy"><figcaption>Shared living room — illustrative placeholder</figcaption></figure>
+        <figure class="gallery-item" data-category="living"><img src="assets/images/living2.svg" alt="Illustrative placeholder of a quiet reading corner" width="800" height="600" loading="lazy"><figcaption>Reading corner — illustrative placeholder</figcaption></figure>
+        <figure class="gallery-item" data-category="dining"><img src="assets/images/dining.svg" alt="Illustrative placeholder of a dining table set for a shared meal" width="800" height="600" loading="lazy"><figcaption>Dining table — illustrative placeholder</figcaption></figure>
+        <figure class="gallery-item" data-category="dining"><img src="assets/images/kitchen.svg" alt="Illustrative placeholder of a home kitchen" width="800" height="600" loading="lazy"><figcaption>Home kitchen — illustrative placeholder</figcaption></figure>
+        <figure class="gallery-item" data-category="outdoor"><img src="assets/images/outdoor.svg" alt="Illustrative placeholder of a garden seating area" width="800" height="600" loading="lazy"><figcaption>Garden seating — illustrative placeholder</figcaption></figure>
+        <figure class="gallery-item" data-category="outdoor"><img src="assets/images/garden.svg" alt="Illustrative placeholder of raised garden beds" width="800" height="600" loading="lazy"><figcaption>Raised garden beds — illustrative placeholder</figcaption></figure>
+        <figure class="gallery-item" data-category="activities"><img src="assets/images/activity.svg" alt="Illustrative placeholder of an activity table with a puzzle" width="800" height="600" loading="lazy"><figcaption>Puzzle table — illustrative placeholder</figcaption></figure>
+        <figure class="gallery-item" data-category="activities"><img src="assets/images/activity2.svg" alt="Illustrative placeholder of a music and conversation corner" width="800" height="600" loading="lazy"><figcaption>Music corner — illustrative placeholder</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" aria-hidden="true">
+    <figure class="lightbox-figure">
+      <button class="lb-btn lb-close" id="lbClose" type="button" aria-label="Close image viewer"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+      <button class="lb-btn lb-prev" id="lbPrev" type="button" aria-label="Previous image"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+      <button class="lb-btn lb-next" id="lbNext" type="button" aria-label="Next image"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+      <img id="lbImage" src="" alt="">
+      <figcaption id="lbCaption"></figcaption>
+    </figure>
+  </div>
+
+  <section class="cta-band">
+    <div class="container cta-inner">
+      <div><h2>Prefer to see it in person?</h2><p>We'd be glad to show you around.</p></div>
+      <div class="cta-actions"><a href="tour.html" class="btn btn-accent btn-lg">Schedule a Tour</a></div>
+    </div>
+  </section>
+</main>
+<footer id="siteFooter"></footer>
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/storage.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/navigation.js" defer></script>
+<script src="assets/js/gallery.js" defer></script>
+</body>
+</html>

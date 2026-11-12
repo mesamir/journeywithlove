@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustrative placeholder of an accessible bathroom">
+<rect width="800" height="600" fill="#eef4f2"/>
+<rect x="120" y="330" width="360" height="150" rx="40" fill="#fdfcf6" stroke="#8faf9b" stroke-width="8"/>
+<rect x="540" y="240" width="140" height="240" rx="14" fill="#dbe6dd"/>
+<circle cx="610" cy="300" r="30" fill="#c5a46d" opacity=".5"/>
+<rect x="150" y="150" width="180" height="110" rx="10" fill="#dbe6dd"/>
+<rect x="100" y="490" width="600" height="16" rx="8" fill="#244b3c" opacity=".18"/>
+</svg>

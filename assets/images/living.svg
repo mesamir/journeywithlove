@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustrative placeholder of a shared living room">
+<rect width="800" height="600" fill="#eef2ec"/>
+<rect x="90" y="300" width="360" height="170" rx="20" fill="#8faf9b"/>
+<rect x="130" y="260" width="90" height="60" rx="10" fill="#f6f2e8"/>
+<rect x="320" y="260" width="90" height="60" rx="10" fill="#f6f2e8"/>
+<rect x="500" y="250" width="220" height="220" rx="12" fill="#dbe6dd"/>
+<rect x="530" y="280" width="160" height="110" rx="8" fill="#c5a46d" opacity=".5"/>
+<ellipse cx="400" cy="500" rx="300" ry="30" fill="#244b3c" opacity=".12"/>
+</svg>

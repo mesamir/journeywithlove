@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustrative placeholder of a second bedroom layout">
+<rect width="800" height="600" fill="#f2f0e8"/>
+<rect x="500" y="80" width="230" height="160" rx="8" fill="#e0e6dd"/>
+<rect x="80" y="300" width="300" height="200" rx="14" fill="#8faf9b"/>
+<rect x="100" y="260" width="150" height="70" rx="10" fill="#faf8f2"/>
+<rect x="420" y="380" width="300" height="120" rx="10" fill="#c5a46d" opacity=".55"/>
+<circle cx="640" cy="170" r="45" fill="#244b3c" opacity=".15"/>
+</svg>
