@@ -67,6 +67,8 @@
           <ul>${NAV.map(([h, l]) => `<li><a href="${h}">${l}</a></li>`).join('')}
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="tour.html">Schedule a Tour</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="costs.html">Costs</a></li>
           </ul>
         </div>
         <div>
